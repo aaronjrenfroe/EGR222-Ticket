@@ -1,6 +1,6 @@
 import java.io.PrintStream;
 
-public class Ticket {
+public abstract class Ticket {
 
     public int ticketID;
     public double price = 50.00;
