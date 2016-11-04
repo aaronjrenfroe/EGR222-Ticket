@@ -9,7 +9,7 @@ public class TicketClient {
         for (int i = 0; i < 10; i++) {
 
 
-            Ticket myTicket = new AdvanceTicket(i+1, i + 8 );
+            Ticket myTicket = new WalkupTicket(i+1);
 
             System.out.println(myTicket);
         }
